@@ -1,0 +1,60 @@
+/* input box */
+.Select-control {
+    background-color: rgb(50, 50, 50) !important;
+    color:gray;
+  }
+
+/* changes the text color of input box */
+.Select-menu-outer {
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
+
+.Select-value-label {
+    background-color: rgb(50, 50, 50);
+    color: rgb(255,255,255) !important;
+}
+
+
+
+body {
+    background-image: url("UFOtruePNG3.gif");
+    background-color: #ffffff;
+}
+
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: black;
+    color: white;
+ }
+
+
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: black;
+    opacity: .7;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: var(--primary); 
+  box-shadow: none;
+}
+
+
+
+
+/* this colors the input box text and x  of multi dropdown*/
+.Select--multi .Select-value {
+  color: rgb(50, 50, 50) white;
+}
