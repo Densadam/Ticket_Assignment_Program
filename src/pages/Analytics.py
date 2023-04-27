@@ -85,7 +85,7 @@ layout = dbc.Container([
         ),
         html.Br(),
         dcc.ConfirmDialogProvider(children=dbc.Button('Download Excel Data'), id="download_btn",
-                                  message='Do you want to Download the selected Excel(.xsls) file?'
+                                  message='Do you want to Download the selected Excel(.xlsx) file?'
                                   ),
         dcc.Download(id="download-dataframe-xlsx"),
         html.Br(),
